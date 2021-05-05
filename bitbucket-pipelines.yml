@@ -7,6 +7,6 @@ pipelines:
           - docker
         script:
           # Run Test
-          - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest"
+          - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/SPP-13/Login"
         artifacts: # defining the artifacts .
           - report/**
